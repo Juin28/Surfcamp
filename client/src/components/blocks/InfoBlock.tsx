@@ -12,14 +12,6 @@ export function InfoBlock({
     content,
     cta,
 }: Readonly<InfoBlockProps>) {
-    console.log("InfoBlock Props:", {
-        theme,
-        reversed,
-        image,
-        headline,
-        content,
-        cta,
-    });
     return (
         <section className={`info info--${theme} ${reversed && "info--reversed"}`}>
             <StrapiImage
